@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>第1章 入门 Getting Started | Steem Engine Handbook</title>
   <meta name="description" content="第1章 入门 Getting Started | Steem Engine Handbook" />
-  <meta name="generator" content="bookdown 0.11.1 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.11.2 and GitBook 2.6.7" />
 
   <meta property="og:title" content="第1章 入门 Getting Started | Steem Engine Handbook" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="Steem 中文社区集体创作" />
 
 
-<meta name="date" content="2019-06-17" />
+<meta name="date" content="2019-07-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -65,7 +65,17 @@
 <ul class="summary">
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>前言</a></li>
 <li class="chapter" data-level="1" data-path="start.html"><a href="start.html"><i class="fa fa-check"></i><b>1</b> 入门 Getting Started</a><ul>
-<li class="chapter" data-level="1.1" data-path="start.html"><a href="start.html#-steem-engine"><i class="fa fa-check"></i><b>1.1</b> 什么是 Steem Engine？</a></li>
+<li class="chapter" data-level="1.1" data-path="start.html"><a href="start.html#se-basics"><i class="fa fa-check"></i><b>1.1</b> Steem Engine 入门</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="start.html"><a href="start.html#-steem-engine"><i class="fa fa-check"></i><b>1.1.1</b> 什么是 Steem Engine？</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="start.html"><a href="start.html#se-operation"><i class="fa fa-check"></i><b>1.2</b> Steem Engine 常用操作</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="start.html"><a href="start.html#purchase-token"><i class="fa fa-check"></i><b>1.2.1</b> 怎样在 Steem Engine 购买代币？ </a></li>
+<li class="chapter" data-level="1.2.2" data-path="start.html"><a href="start.html#wallet"><i class="fa fa-check"></i><b>1.2.2</b> 钱包常用操作 </a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="start.html"><a href="start.html#scot-basics"><i class="fa fa-check"></i><b>1.3</b> SCOT 入门</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="start.html"><a href="start.html#purchase-token"><i class="fa fa-check"></i><b>1.3.1</b> 什么是 SCOT？ </a></li>
+<li class="chapter" data-level="1.3.2" data-path="start.html"><a href="start.html#scotbot-settings"><i class="fa fa-check"></i><b>1.3.2</b> ScotBot 的设定 </a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="theory.html"><a href="theory.html"><i class="fa fa-check"></i><b>2</b> 原理 Theory</a></li>
 <li class="chapter" data-level="3" data-path="dapp.html"><a href="dapp.html"><i class="fa fa-check"></i><b>3</b> 应用 dApp</a></li>
@@ -97,14 +107,137 @@
             <section class="normal" id="section-">
 <div id="start" class="section level1">
 <h1><span class="header-section-number">第1章</span> 入门 Getting Started</h1>
-<div id="-steem-engine" class="section level2">
-<h2><span class="header-section-number">1.1</span> 什么是 Steem Engine？</h2>
+<div id="se-basics" class="section level2">
+<h2><span class="header-section-number">1.1</span> Steem Engine 入门</h2>
+<div id="-steem-engine" class="section level3">
+<h3><span class="header-section-number">1.1.1</span> 什么是 Steem Engine？</h3>
 <p>首先，你或许可以参考 <a href="https://steem-engine.com/?p=faq">Steem Engine的FAQ</a> 了解它对自己的介绍 …..</p>
-<blockquote>
-<p>（未完待续）</p>
-</blockquote>
+<hr />
+</div>
+</div>
+<div id="se-operation" class="section level2">
+<h2><span class="header-section-number">1.2</span> Steem Engine 常用操作</h2>
+<div id="purchase-token" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> 怎样在 Steem Engine 购买代币？ <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></h3>
+<p>众所周知，Steemit Inc的SMT计划一拖再拖。终于，大家受不了这么漫长的等待，<a href="mailto:由@aggroed带头开始社区自己搞SMT">由@aggroed带头开始社区自己搞SMT</a>。</p>
+<p>几个月时间，steem-engine就上线了~ 上线后有很多DApps，社区在上面创建了属于自己的币。</p>
+<p><a href="mailto:比如@tipu的TPU">比如@tipu的TPU</a>，韩国社区的JJM，YES，STEEMSC 等币已经在steem-engine上面拥有很多交易量了</p>
+<p>如果你也对steem-engine上面的币心动，想着购买，这里介绍一下大概的购买流程。</p>
+<h3>
+登录 steem-engine.com
+</h3>
+<p>有2种登录方式：
+* 安装Chrome/Brave/Firefox浏览器插件steem keychain。
+推荐keychain。很方便的插件。相当于集很多功能的STEEM钱包。具体怎么安装设置keychain，可以看看这篇帖子：<a href="https://busy.org/@ericet/steempeak-w0yo19h857" class="uri">https://busy.org/@ericet/steempeak-w0yo19h857</a>
+* posting key登录
+直接输入steem id和发帖密钥登录</p>
+<p><img src="images/chapter_01_0/1.png" alt="" /><br/></p>
+<h3>
+充值
+</h3>
+<p>登录后，点击页面上方的“Market”，然后“Deposit”（充值）</p>
+<p><img src="images/chapter_01_0/2.png" alt="" /><br/></p>
+<p>之前只支持STEEM充值，没想到1个月不到已经可以支持LTC，BTC，BCH，DOGE了
+选择你拥有的币的种类，按照提示充值。
+需要注意的是，提现充值需要收取1%的手续费。但是交易是没有费用的</p>
+<p><img src="images/chapter_01_0/3.jpg" alt="" /><br/></p>
+<p>等你充值成功后，在你的钱包里会多了一个STEEMP的币。
+这个币是1:1 和STEEM挂钩的，任何时候充值提现，1STEEMP都等于1STEEM。</p>
+<p><img src="images/chapter_01_0/6.png" alt="" /><br/></p>
+<h3>
+交易
+</h3>
+<p>充好值后，点击页面上方的“TOKENS”，查看所有的币。
+选择你想购买的币，点击图上双箭头的标志。</p>
+<p><img src="images/chapter_01_0/4.png" alt="" /><br/></p>
+<p>进入交易页面。可以选择买入币（Buy XXX）或者卖出币（Sell XXX）。价格是按STEEM算的</p>
+<p><img src="images/chapter_01_0/5.png" alt="" /><br/></p>
+<p>填入自己心仪的价格后，就可以点击“Buy”或者“Sell”按钮</p>
+<p>好了，单子挂好了，就等交易成功了。</p>
+<p>虽然目前steem-engine上有很多乱七八糟的币，但是引入币的概念对DApp还是社区的发展都是有益的。</p>
+</div>
+<div id="wallet" class="section level3">
+<h3><span class="header-section-number">1.2.2</span> 钱包常用操作 <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></h3>
+<h3>
+锁仓 Stake
+</h3>
+<p>登录<a href="https://steem-engine.com">steem-engine</a>进入你的钱包（Wallet）。</p>
+<p>主要界面是英文大家用起来不熟悉而已，其实鼠标悬停，最右边的几个图标都有英文简介（貌似可以有7个图标这里就5个）。</p>
+<div class="figure">
+<img src="images/chapter_01_0/SJmJHVre-image.png" alt="image.png" />
+<p class="caption">image.png</p>
+</div>
+<p>如图最右边你看到一个锁着的按钮，表示你有未锁仓的ttoken可以操作锁仓。锁仓几乎就是power down</p>
+<p>当你按下之后，更具提示输入你要锁仓的金额就可以了！
+确认锁仓后你会看到<img src="images/chapter_01_0/IpSBaCeP-image.png" alt="image.png" />解锁的图标，当你需要解除锁仓时，可以点击这个图标，类似power up。</p>
+<p>需要注意的是每种token的解锁时效是不一样的，锁仓前最好了了解一下哟！</p>
+</div>
+</div>
+<div id="scot-basics" class="section level2">
+<h2><span class="header-section-number">1.3</span> SCOT 入门</h2>
+<div id="purchase-token" class="section level3">
+<h3><span class="header-section-number">1.3.1</span> 什么是 SCOT？ <a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></h3>
+<p><img src="https://ipfs.busy.org/ipfs/QmVKqZnib67PzEcFzhVeLcptjVArptXzNZvEJjoNTsQAfe" alt="" /><br/></p>
+<p><a href="mailto:社区的行动派大佬@aggroed继steemmonsters">社区的行动派大佬@aggroed继steemmonsters</a>，steem-engine, STO后又出新作~ SCOT( Smart Contract Organizational Token) <a href="https://busy.org/@aggroed/scot-testing-underway-are-you-ready-for-your-own-token-that-can-distribute-like-steem">SCOT Testing underway!!! Are you ready for your own token that can distribute like Steem?</a></p>
+<p>这个SCOT是什么呢？其实就是steemit inc从几年前一直鼓吹的SMT。</p>
+<p>SMT的概念是，每个社区可以在STEEM区块链上创建属于自己的币。每个社区可以创建属于自己的steemit.com前端，文章的收益除了STEEM外还有自己创建的币。</p>
+<p>打个比方，steempress发了SMT。所有通过steempress插件发布的文章除了STEEM收益外，还可以获得steempress自己的代币。steempress的代币可以通过steem-engine交易成其他货币（BTC，LTC，STEEM等）。获得的steempress代币的多少，取决于给你点赞人持有的steempress的代币多少。</p>
+<p>SCOT就是拿了SMT的理念，把他变成现实。</p>
+<p>但是和SMT不一样的是，SCOT是建立在STEEM的第二层，而不是像SMT那样全部建立在STEEM链上。这样做的好处是：</p>
+<ul>
+<li>不需要硬分叉。如果建立在STEEM链上需要硬分叉，大家也知道上回的硬分叉给STEEM带来多少问题吧。</li>
+<li>快捷。修改STEEM代码是非常花费时间。</li>
+</ul>
+<p>SCOT会带给STEEM什么好处呢？</p>
+<ul>
+<li>不需要分叉来建立新的代币。很多steem的分叉，比如weku，whaleshares，bearshares，golos都是steem的分叉，都有属于自己的代币。如果STEEM拥有SMT的属性，那这些平台就只要基于STEEM创建一个自己的代币和平台，而不需要来个分叉创建平台和代币。</li>
+<li>每个社区将可以按照自己的规则管理自己的社区。</li>
+</ul>
+<p>很高兴有机会当SCOT的测试员，抢先体验了一下SCOT。</p>
+<p>aggroed发了72000 SCOT用于测试，要求随便发帖加上scottest的标签，并且给scottest标签底下的帖子点赞</p>
+<p><img src="images/chapter_01_0/Capture-24.png" alt="" /><br/></p>
+<p>测试版的steem-engine多了Stake和unstake的选项。按照我自己的理解，stack就等于power up，unstack等于power down</p>
+<p>帖子获得的SCOT的多少取决于给你点赞的人拥有多少stake的SCOT（相当于拥有多少SP）</p>
+<p>unstake需要多久才能提现这个应该是可以设置的，还有帖子SCOT收益部分多久结算也应该是可以设置的。可能帖子收益和审查收益的比例也可以设置(?) 很多种未知的可能。</p>
+<p>看了上面的设置，CN区完全可以出一个属于自己的SCOT，各种规则由CN区自己做主。比如steemcleaners按照他们的标准踩CN区的帖子，这里完全可以CN区自己管理。毕竟每个社区的标准不同。</p>
+</div>
+<div id="scotbot-settings" class="section level3">
+<h3><span class="header-section-number">1.3.2</span> ScotBot 的设定 <a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a></h3>
+<p><img src="images/chapter_01_0/OAPsDVj.png" alt="" /><br/></p>
+<p><a href="mailto:今天@aggroed介绍了ScotBot的具体设置">今天@aggroed介绍了ScotBot的具体设置</a>：<a href="https://busy.org/@aggroed/scot-and-scotbot-part-iii-scotbot-settings">Scot and Scotbot Part III: Scotbot settings.</a></p>
+<p>主要有以下这些设置：</p>
+<ul>
+<li><strong>author_curve_exponent</strong>：作者收益可选线性（1）或者曲线（2）</li>
+<li><strong>author_reward_percentage</strong>: 作者获得帖子收益的百分百(0-100). 比如现在steem的设置是75%给帖子作者，25%给curators。</li>
+<li><strong>cashout_window_days</strong>: 帖子结算天数（0.1 - 365）。steem目前的设置是7天，如果这个参数改成1的话，就是每天帖子1结算。</li>
+<li><strong>curation_curve_exponent</strong>: Curator收益可选普通线性(0.5) - 极端线性(2.0)</li>
+<li><strong>downvote_power_consumption</strong>: 踩后帖子扣除收益的百分百（1 - 10000 ) 100代表1%，10000代表100%。如果要设置成和steem现在的设置一样，踩和点赞耗费同样多的VP，downvote_power_consumption 和 vote_power_consumption 要设置成一样的参数。</li>
+<li><strong>downvote_regeneration_seconds</strong>: 踩的奖金池恢复速度。如果要和steem的一样，设置参数为432000（6天）。如果不想要这个设定，设置成-1.</li>
+<li><strong>issue_token</strong>: 是否发行代币。选择true或者false</li>
+<li><strong>json_metadata_key</strong>: 这个选项目前只能填“tags”，意思是，在特定的标签里的帖子才会获得代币。未来会添加“urls”这个选项，意思是在这个链接底下的帖子将会获得代币。</li>
+<li><strong>json_metadata_value</strong>: 因为目前只有“tags”的选项，所有这里输入你要设置哪个标签底下的帖子才会获得代币。比如设置“cn”，发cn标签的帖子将会自动获得代币。</li>
+<li><strong>reduction_every_n_block</strong>: 多少个区块减少比例。可以设置10512000（一年）。一年后，将减少派送的代币的比例。</li>
+<li><strong>reduction_percentage</strong>: 减少的比例。 Steem现在的设置是0.5%，意思是每年生出的STEEM数量减少大概0.5%。</li>
+<li><strong>rewards_token</strong>: 每生产X个区块，有多少代币放入奖金池。Steem目前的设定好像是每3个区块将产生1个STEEM</li>
+<li><strong>rewards_token_every_n_block</strong>&quot;: 设置X区块。比如设置成10，就是每10个区块将生产X个代币。</li>
+<li><strong>token</strong>: 代币的符号</li>
+<li><strong>token_account</strong>: 代币账号</li>
+<li><strong>vote_power_consumption</strong>: 点赞的消耗率。Steem现在是2，意思是每次满赞耗费2%</li>
+<li><strong>vote_regeneration_seconds</strong>&quot;: 需要多久时间恢复VP。STEEM的设置是432000（5天），就是每天恢复20%，5天恢复。</li>
+</ul>
+<p>从以上的设置来看，SCOT给了社区/DApps很多的权利来选择自己想要的参数。</p>
 
 </div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>作者：@ericet，原文链接：<a href="https://busy.org/@ericet/steem-engine-7mkxyo7yjn" class="uri">https://busy.org/@ericet/steem-engine-7mkxyo7yjn</a><a href="start.html#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>作者：@shine.wong，原文链接：<a href="https://busy.org/@shine.wong/steem-engine" class="uri">https://busy.org/@shine.wong/steem-engine</a><a href="start.html#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>作者：@ericet，原文链接：<a href="https://busy.org/@ericet/steem-engine-7mkxyo7yjn" class="uri">https://busy.org/@ericet/steem-engine-7mkxyo7yjn</a><a href="start.html#fnref3" class="footnote-back">↩</a></p></li>
+<li id="fn4"><p>作者：@ericet，原文链接：<a href="https://busy.org/@ericet/scotbot-1b94mfpktn/" class="uri">https://busy.org/@ericet/scotbot-1b94mfpktn/</a><a href="start.html#fnref4" class="footnote-back">↩</a></p></li>
+</ol>
 </div>
             </section>
 
