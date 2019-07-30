@@ -24,15 +24,15 @@
 <meta name="author" content="Steem 中文社区集体创作" />
 
 
-<meta name="date" content="2019-07-18" />
+<meta name="date" content="2019-07-30" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html">
-<link rel="next" href="theory.html">
+<link rel="prev" href="index.html"/>
+<link rel="next" href="theory.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -78,14 +78,7 @@
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="theory.html"><a href="theory.html"><i class="fa fa-check"></i><b>2</b> 原理 Theory</a></li>
-<li class="chapter" data-level="3" data-path="tribes.html"><a href="tribes.html"><i class="fa fa-check"></i><b>3</b> 社群 Tribes</a><ul>
-<li class="chapter" data-level="3.1" data-path="tribes.html"><a href="tribes.html#whats-tribes"><i class="fa fa-check"></i><b>3.1</b> 什么是 SCOT 社群 （SCOT Tribes）？</a></li>
-<li class="chapter" data-level="3.2" data-path="tribes.html"><a href="tribes.html#tribes-config"><i class="fa fa-check"></i><b>3.2</b> SCOT 社群设定总览</a></li>
-<li class="chapter" data-level="3.3" data-path="tribes.html"><a href="tribes.html#intro-to-tribes"><i class="fa fa-check"></i><b>3.3</b> SCOT 社群（Tribes）介绍</a><ul>
-<li class="chapter" data-level="3.3.1" data-path="tribes.html"><a href="tribes.html#sct"><i class="fa fa-check"></i><b>3.3.1</b> SCT</a></li>
-<li class="chapter" data-level="3.3.2" data-path="tribes.html"><a href="tribes.html#aaa"><i class="fa fa-check"></i><b>3.3.2</b> AAA</a></li>
-</ul></li>
-</ul></li>
+<li class="chapter" data-level="3" data-path="dapp.html"><a href="dapp.html"><i class="fa fa-check"></i><b>3</b> 应用 dApp</a></li>
 <li class="chapter" data-level="4" data-path="token.html"><a href="token.html"><i class="fa fa-check"></i><b>4</b> 货币 Token</a><ul>
 <li class="chapter" data-level="4.1" data-path="token.html"><a href="token.html#nbc-"><i class="fa fa-check"></i><b>4.1</b> NBC 新手币 </a></li>
 <li class="chapter" data-level="4.2" data-path="token.html"><a href="token.html#shop"><i class="fa fa-check"></i><b>4.2</b> SHOP币</a></li>
@@ -174,18 +167,39 @@
 <div id="wallet" class="section level3">
 <h3><span class="header-section-number">1.2.2</span> 钱包常用操作 <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></h3>
 <h3>
-锁仓 Stake
+什么是锁仓（Stake）？
 </h3>
-<p>登录<a href="https://steem-engine.com">steem-engine</a>进入你的钱包（Wallet）。</p>
-<p>主要界面是英文大家用起来不熟悉而已，其实鼠标悬停，最右边的几个图标都有英文简介（貌似可以有7个图标这里就5个）。</p>
-<div class="figure">
-<img src="images/chapter_01_0/SJmJHVre-image.png" alt="image.png" />
-<p class="caption">image.png</p>
-</div>
-<p>如图最右边你看到一个锁着的按钮，表示你有未锁仓的ttoken可以操作锁仓。锁仓几乎就是power down</p>
-<p>当你按下之后，更具提示输入你要锁仓的金额就可以了！
-确认锁仓后你会看到<img src="images/chapter_01_0/IpSBaCeP-image.png" alt="image.png" />解锁的图标，当你需要解除锁仓时，可以点击这个图标，类似power up。</p>
-<p>需要注意的是每种token的解锁时效是不一样的，锁仓前最好了了解一下哟！</p>
+<p>这里我挑一个 SCOT 代币来讲解，这样才能方便大家理解，我挑的代币是 SCOT 平台 <a href="https://www.steemzzang.com" class="uri">https://www.steemzzang.com</a> 的 ZZAN 代币。</p>
+<p>图① <a href="https://steem-engine.com" class="uri">https://steem-engine.com</a>
+<img src="images/chapter_01_0/K6TY4NyI-Screenshot_20190727-040130__01.jpg" /></p>
+<p>图② <a href="https://www.steemzzang.com/@lovelemon" class="uri">https://www.steemzzang.com/@lovelemon</a>
+<img src="images/chapter_01_0/50cquHBF-Screenshot_20190727-034959__01__01.jpg" /></p>
+<p>图①显示我所持有的 ZZAN 代币的数量为 10.73935，这个是我还没有锁仓的代币，而右手边显示的 109()，109 这个数字是我已锁仓的代币，109 这个数字其实并不包括我代理出去的 ZZAN 代币。</p>
+<p>然后我们再看看图②…这个页面是不是很熟悉？没错，他长得很像 Steemit，只是 token 已从 Steem 变成 ZZAN，Steem Power 变成 ZZAN Power。</p>
+<p>图②中显示我的 ZZAN Power 是 519 ZZAN，但是为什么图①却显示我锁仓的代币是 109 ZZAN 呢？原因是我有把已锁仓的 410 ZZAN 给代理出去了，所以图②中我的 ZZAN Power 那里有个 (-410.00000 ZZAN)</p>
+<p>锁仓 (STAKE TOKEN) 就是把 ZZAN 代币 Power Up 成 ZZAN Power，情况类似于使用 Steem 来 Power Up 成 Steem Power (点赞权重) 。</p>
+<ul>
+<li>ZZAN 是我钱包里未锁仓的代币</li>
+<li>ZZAN Power 是我已锁仓的代币</li>
+</ul>
+<p>未锁仓的代币可以随意交易，但锁仓了代币就是你的点赞权重，只要锁仓了 ZZAN，你点赞的那篇文章只要有使用 #zzan 标签就能获得 ZZAN 代币。你锁仓的 ZZAN 代币越多，你点赞的那篇文章结算时获得的 ZZAN 代币也会越多。</p>
+<h3>
+Steem Engine 代币要如何锁仓与代理？
+</h3>
+<p>首先打开 <a href="https://steem-engine.com" class="uri">https://steem-engine.com</a> 登录，进入你的 wallet 页面，在你要锁仓的代币旁边都会有这些锁头之类的。</p>
+<p><img src="images/chapter_01_0/9CFzniRN-Screenshot_20190727-040206__01.jpg" /></p>
+<p>🔒 锁头是 STAKE，STAKE 是把 zzan 变成 zzan power</p>
+<p>🔓 解锁是 UNSTAKE，UNSTAKE 是把 zzan power 变回 zzan</p>
+<p>↔ 这个就是代理的符号 DELEGATE</p>
+<p>📁 最后一个是取消代理的符号 UNDELEGATE</p>
+<hr />
+<p>首先我们要讲的是如何锁仓 (STAKE)，第一步是点击 🔒 进入下图③，只有两个填写项，TO 是写自己的 ID 名字，AMOUNT 是要锁仓的数量，然后就是一系列 steemconnect 登录密码，密码要用 active key 授权完成操作。</p>
+<p>图③
+<img src="images/chapter_01_0/D9g7Vpko-Screenshot_20190727-045205__01.jpg" /></p>
+<p>接下去第二步要讲的是如何代理，点击 ↔ 进入下图④，也是只有两个填写项，TO 是写你要代理给的那个人。</p>
+<p>比如我要代理 zzan 代币给 <span class="citation">@cn-zzang</span>，我就在 TO 那里写上 cn-zzang，不需要加@。AMOUNT 是要代理的代币数量。</p>
+<p>图④
+<img src="images/chapter_01_0/wM8TQrHF-Screenshot_20190727-045218__01.jpg" /></p>
 </div>
 </div>
 <div id="scot-basics" class="section level2">
@@ -249,7 +263,7 @@
 <hr />
 <ol start="1">
 <li id="fn1"><p>作者：@ericet，原文链接：<a href="https://busy.org/@ericet/steem-engine-7mkxyo7yjn" class="uri">https://busy.org/@ericet/steem-engine-7mkxyo7yjn</a><a href="start.html#fnref1" class="footnote-back">↩</a></p></li>
-<li id="fn2"><p>作者：@shine.wong，原文链接：<a href="https://busy.org/@shine.wong/steem-engine" class="uri">https://busy.org/@shine.wong/steem-engine</a><a href="start.html#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>作者：@lovelemon，原文链接：<a href="https://busy.org/@lovelemon/steem-engine" class="uri">https://busy.org/@lovelemon/steem-engine</a><a href="start.html#fnref2" class="footnote-back">↩</a></p></li>
 <li id="fn3"><p>作者：@ericet，原文链接：<a href="https://busy.org/@ericet/steem-engine-7mkxyo7yjn" class="uri">https://busy.org/@ericet/steem-engine-7mkxyo7yjn</a><a href="start.html#fnref3" class="footnote-back">↩</a></p></li>
 <li id="fn4"><p>作者：@ericet，原文链接：<a href="https://busy.org/@ericet/scotbot-1b94mfpktn/" class="uri">https://busy.org/@ericet/scotbot-1b94mfpktn/</a><a href="start.html#fnref4" class="footnote-back">↩</a></p></li>
 </ol>
